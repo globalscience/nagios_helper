@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /root/bin/nagios/etc/constant.conf
+source ${HOME}/bin/nagios/etc/constant.conf
 
 dir=${NAGIOS_SERVERS_DIR}
 ext=${NAGIOS_CONF_EXT}
